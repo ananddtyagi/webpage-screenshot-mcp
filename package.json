@@ -1,0 +1,33 @@
+{
+  "name": "webpage-screenshot-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for capturing screenshots of web pages",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "puppeteer",
+    "web-scraping"
+  ],
+  "author": "Anand Tyagi",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "puppeteer": "24.9.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ]
+}
