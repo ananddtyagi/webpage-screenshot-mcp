@@ -2,6 +2,9 @@
 
 An MCP (Model Context Protocol) server that captures screenshots of web pages using Puppeteer. This server allows AI agents to visually verify web applications and see their progress when generating web apps.
 
+![Screen Recording May 27 2025 (2)](https://github.com/user-attachments/assets/9f186ec4-5a5c-449b-9a30-a5ec0cdba695)
+
+
 ## Features
 
 - **Full page screenshots**: Capture entire web pages or just the viewport
