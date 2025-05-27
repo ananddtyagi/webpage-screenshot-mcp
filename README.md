@@ -18,13 +18,54 @@ An MCP (Model Context Protocol) server that captures screenshots of web pages us
 
 ## Installation
 
-```bash
-# Install globally
-npm install -g screenshot-webpage-mcp
+To install and build the MCP:
 
-# Or use locally in a project
-npm install screenshot-webpage-mcp
+```bash
+# Clone the repository (if you haven't already)
+git clone https://github.com/ananddtyagi/webpage-screenshot-mcp.git
+cd webpage-screenshot-mcp
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
 ```
+
+The MCP server is built using TypeScript and compiled to JavaScript. The `dist` folder contains the compiled JavaScript files. 
+
+### Adding to Claude or Cursor
+
+To add this MCP to Claude Desktop or Cursor:
+
+1. **Claude Desktop**:
+   - Go to Settings > Developer
+   - Click "Edit Config"
+   - Add the following:
+
+   ```json
+    "webpage-screenshot": {
+      "command": "node",
+      "args": [
+        "~/path/to/webpage-screenshot-mcp/dist/index.js"
+      ]
+    }
+   ```
+   - Save and reload Claude
+
+2. **Cursor**:
+   - Open Cursor and go to Cursor Settings > MCP
+   - Click "Add new global MCP server"
+   - Add the following:
+  
+  ```json
+    "webpage-screenshot": {
+      "command": "node",
+      "args": ["~/path/to/webpage-screenshot-mcp/dist/index.js"]
+    }
+   ```
+
+   - Save and reload Cursor
 
 ## Usage
 
