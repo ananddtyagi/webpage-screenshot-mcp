@@ -20,20 +20,7 @@ An MCP (Model Context Protocol) server that captures screenshots of web pages us
 
 ### Quick Start (Claude Desktop Extension)
 
-You can generate a `.dxt` file for easy installation in Claude Desktop:
-
-1. First, build the project:
-   ```bash
-   npm install
-   npm run build
-   ```
-
-2. Create a `.dxt` file using the official DXT packer:
-   ```bash
-   npx @anthropic-ai/dxt pack
-   ```
-
-3. Drag and drop the generated `screenshot-webpage-mcp.dxt` file into Claude Desktop for automatic installation!
+Drag and drop the generated `screenshot-webpage-mcp.dxt` file into Claude Desktop for automatic installation!
 
 ### Manual Installation
 
