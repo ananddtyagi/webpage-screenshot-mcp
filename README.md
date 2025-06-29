@@ -18,7 +18,13 @@ An MCP (Model Context Protocol) server that captures screenshots of web pages us
 
 ## Installation
 
-To install and build the MCP:
+### Quick Start (Claude Desktop Extension)
+
+For the fastest setup with Claude Desktop, simply drag and drop the `screenshot-webpage-mcp.dxt` file into Claude Desktop. The extension will be automatically installed and ready to use!
+
+### Manual Installation
+
+To install and build the MCP from source:
 
 ```bash
 # Clone the repository (if you haven't already)

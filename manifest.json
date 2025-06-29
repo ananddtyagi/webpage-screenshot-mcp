@@ -1,0 +1,40 @@
+{
+  "dxt_version": "0.1",
+  "name": "webpage-screenshot-mcp",
+  "display_name": "Webpage Screenshot MCP Server",
+  "version": "1.0.0",
+  "description": "MCP server for capturing screenshots of web pages using Puppeteer",
+  "long_description": "This MCP server allows AI agents to capture screenshots of web pages, with support for full page captures, element screenshots, authentication handling, and multiple image formats.",
+  "author": {
+    "name": "Anand Tyagi"
+  },
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"]
+    }
+  },
+  "tools": [
+    {
+      "name": "screenshot-page",
+      "description": "Captures a screenshot of a given URL"
+    },
+    {
+      "name": "screenshot-element",
+      "description": "Captures a screenshot of a specific element on a webpage"
+    },
+    {
+      "name": "login-and-wait",
+      "description": "Opens a webpage for manual login and saves cookies"
+    },
+    {
+      "name": "clear-auth-cookies",
+      "description": "Clears saved authentication cookies"
+    }
+  ],
+  "homepage": "https://github.com/ananddtyagi/webpage-screenshot-mcp",
+  "keywords": ["mcp", "screenshot", "puppeteer", "web-scraping"]
+}
