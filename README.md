@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server that captures screenshots of web pages using Puppeteer. This server allows AI agents to visually verify web applications and see their progress when generating web apps.
 
+<a href="https://glama.ai/mcp/servers/@ananddtyagi/webpage-screenshot-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ananddtyagi/webpage-screenshot-mcp/badge" alt="Webpage Screenshot Server MCP server" />
+</a>
+
 ![Screen Recording May 27 2025 (2)](https://github.com/user-attachments/assets/9f186ec4-5a5c-449b-9a30-a5ec0cdba695)
 
 
